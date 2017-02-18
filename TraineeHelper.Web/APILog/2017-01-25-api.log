@@ -1,0 +1,14 @@
+2017-01-25 19:38:19.6865|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1485365899458)\/","Modified":"\/Date(1485365899459)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2017-01-25 19:38:20.0759|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+

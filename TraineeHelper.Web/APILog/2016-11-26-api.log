@@ -1,0 +1,210 @@
+2016-11-26 10:54:28.6750|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"liranbenzvi1@gmal.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480150468492)\/","Modified":"\/Date(1480150468492)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 10:54:37.2135|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"liranbenzvi@gmal.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480150477207)\/","Modified":"\/Date(1480150477207)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 10:54:52.8250|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"liranbenzvi@gmal.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480150492819)\/","Modified":"\/Date(1480150492819)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 10:55:10.0843|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"liranbenzvi@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480150510080)\/","Modified":"\/Date(1480150510080)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 10:55:44.5533|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/findUser?userName=a
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a"}]}
+
+2016-11-26 10:56:02.8244|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/findUser?userName=u
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"u"}]}
+
+2016-11-26 11:04:52.2258|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/findUser?userName=a
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a"}]}
+
+2016-11-26 11:05:11.1266|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/findUser?userName=u
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"u"}]}
+
+2016-11-26 11:05:50.2513|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:06:16.4287|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:06:32.8347|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:07:01.4865|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:14:51.4516|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:17:13.4929|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:20:34.2134|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:20:42.9381|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:20:50.4953|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 11:21:52.0267|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Addressed":"582dc188a719fa2f406f7749","ToAddressee":"58341fc6a719fa3138095e1c","ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 12:02:21.0954|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480154540900)\/","Modified":"\/Date(1480154540900)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 15:36:47.6256|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480167407445)\/","Modified":"\/Date(1480167407445)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 15:37:52.0621|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480167472058)\/","Modified":"\/Date(1480167472058)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 15:50:24.0750|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480168223873)\/","Modified":"\/Date(1480168223873)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 15:51:32.5291|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480168292524)\/","Modified":"\/Date(1480168292524)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 15:54:29.2772|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480168469097)\/","Modified":"\/Date(1480168469097)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 16:01:42.9673|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/58341fc6a719fa3138095e1c
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58341fc6a719fa3138095e1c"}]}
+
+2016-11-26 16:12:44.5162|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1480169564284)\/","Modified":"\/Date(1480169564284)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-26 18:55:22.4280|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/DeclineRequest?id=1
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : DeclineRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-11-26 18:57:26.0737|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/DeclineRequest?id=1
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : DeclineRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-11-26 18:57:36.7585|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/DeclineRequest?id=1
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : DeclineRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-11-26 18:59:02.2580|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/DeclineRequest?id=58395432a719fa3840ce40e0
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : DeclineRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58395432a719fa3840ce40e0"}]}
+

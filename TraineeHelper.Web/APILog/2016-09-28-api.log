@@ -1,0 +1,7 @@
+2016-09-28 16:43:54.4518|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+

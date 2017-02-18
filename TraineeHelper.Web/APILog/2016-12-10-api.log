@@ -1,0 +1,42 @@
+2016-12-10 07:31:24.9489|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"gogo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1481347884767)\/","Modified":"\/Date(1481347884767)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-10 07:31:34.7937|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=r&userId=584a5968a719fa5f484cd875
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"r","userId":"584a5968a719fa5f484cd875"}]}
+
+2016-12-10 07:32:04.7320|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=r&userId=584a5968a719fa5f484cd875
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"r","userId":"584a5968a719fa5f484cd875"}]}
+
+2016-12-10 07:34:29.7362|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=r&userId=584a5968a719fa5f484cd875
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"r","userId":"584a5968a719fa5f484cd875"}]}
+
+2016-12-10 07:34:53.8544|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=r&userId=584a5968a719fa5f484cd875
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"r","userId":"584a5968a719fa5f484cd875"}]}
+
+2016-12-10 09:22:34.7070|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateTrainingPlan
+Controller : TraineeHelper.Web.Controllers.TrainingPlanApiController
+Action : CreateTrainingPlan
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainingPlanctx":{"Id":null,"TrainerId":null,"TraineeId":null,"PlanName":"1","Description":"2","Created":"\/Date(-62135596800000)\/","StartDate":"\/Date(-62135596800000)\/","EndDate":"\/Date(-62135596800000)\/","CompletionDate":"\/Date(-62135596800000)\/","Exercises":[{"ExerciseId":0,"PlanId":0,"ExerciseName":"","ExerciseType":"","Description":"","SetsNum":111,"Repetitions":0,"Note":"","MuscleName":"","Status":0},{"ExerciseId":0,"PlanId":0,"ExerciseName":"","ExerciseType":"","Description":"","SetsNum":222,"Repetitions":0,"Note":"","MuscleName":"","Status":0},{"ExerciseId":0,"PlanId":0,"ExerciseName":"","ExerciseType":"","Description":"","SetsNum":333,"Repetitions":0,"Note":"","MuscleName":"","Status":0}],"TrainingPlanStatus":0}}]}
+

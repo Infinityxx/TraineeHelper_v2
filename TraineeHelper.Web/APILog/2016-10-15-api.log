@@ -1,0 +1,217 @@
+2016-10-15 13:05:23.0720|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:06:27.1848|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:10:41.8397|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:11:33.9147|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:11:33.9147|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:11:39.2991|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:12:02.8498|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:14:48.6258|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:16:21.1111|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:17:11.6756|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:57:54.7872|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:58:22.5764|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 13:58:39.1162|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:02:53.5737|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:03:34.0495|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:05:44.7424|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:06:01.0344|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:15:46.1243|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:17:51.4418|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:22:10.5353|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556"}]}
+
+2016-10-15 14:26:03.6198|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":null}]}
+
+2016-10-15 14:26:29.1955|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":null}]}
+
+2016-10-15 14:26:51.3397|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:27:52.7609|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:30:34.0054|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:32:06.0627|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:34:14.3740|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:36:41.4460|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:38:24.6848|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 14:56:09.5149|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":27}}]}
+
+2016-10-15 15:51:04.4804|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: PUT
+URL: http://localhost:57906/api/trainee/MedicalCondition?id=5800e940a719fa08149da556
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : TraineeMedicalCondition
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"5800e940a719fa08149da556","medicalContext":{"MuscleMass":5,"FatPercent":10,"Weight":30,"Height":20,"Age":35}}]}
+

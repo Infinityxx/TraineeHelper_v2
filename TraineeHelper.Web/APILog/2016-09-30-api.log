@@ -1,0 +1,42 @@
+2016-09-30 15:48:36.1149|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/1
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-09-30 15:48:39.3133|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+
+2016-09-30 15:49:26.2809|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+
+2016-09-30 18:54:40.3178|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/514b4
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"514b4"}]}
+
+2016-09-30 18:57:10.4631|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/authenticate
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-09-30 18:58:13.9578|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

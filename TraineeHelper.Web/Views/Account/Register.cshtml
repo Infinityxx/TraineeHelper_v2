@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Registration Form</h2>
+
+<input type="text" id="txtEmail" placeholder="Email"/>
+<input type="text" id="txtUserName" placeholder="User Name"/>
+<input type="password" id="txtPassword" placeholder="Password" />
+<input type="password" id="txtConfirmPassword" placeholder="Confirm Password" />
+<select id="cmbRole" >
+    <option>Trainee</option>
+    <option>Trainer</option>
+    <option>Gym</option>
+</select>
+
+<button onclick="register()" >Register</button>

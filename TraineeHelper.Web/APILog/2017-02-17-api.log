@@ -1,0 +1,49 @@
+2017-02-17 10:22:52.0192|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengectx":{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":null,"ChallengeValue":null,"ChallengeTime":null,"IsCompleted":false,"ChallengeStatus":0}}]}
+
+2017-02-17 10:25:16.7590|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengectx":[]}]}
+
+2017-02-17 10:26:08.1678|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengectx":[]}]}
+
+2017-02-17 10:27:29.0350|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengectx":[]}]}
+
+2017-02-17 10:28:17.5226|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengectx":[]}]}
+
+2017-02-17 10:37:10.0182|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengpkg":{"TraineeChallengePackage":null}}]}
+
+2017-02-17 10:38:52.2489|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengpkg":{"TraineeChallengePackage":null}}]}
+

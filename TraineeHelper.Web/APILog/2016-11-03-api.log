@@ -1,0 +1,294 @@
+2016-11-03 11:33:15.6937|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/test
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"test"}]}
+
+2016-11-03 11:33:18.2755|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"korpus@gmail.com","Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1478165598246)\/","Modified":"\/Date(1478165598246)\/"}}]}
+
+2016-11-03 11:33:23.8118|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/test
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"test"}]}
+
+2016-11-03 11:33:26.5169|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/logout
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-11-03 11:33:29.6574|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"korpus@gmail.com","Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1478165609655)\/","Modified":"\/Date(1478165609655)\/"}}]}
+
+2016-11-03 11:33:35.0245|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/logout
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-11-03 11:35:03.3631|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581a37b8a719fa14e017752f
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"undtaker"},"userNameId":"581a37b8a719fa14e017752f"}]}
+
+2016-11-03 12:14:14.8915|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:19:10.4159|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581a37b8a719fa14e017752f
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"undtaker"},"userNameId":"581a37b8a719fa14e017752f"}]}
+
+2016-11-03 12:19:38.2293|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:20:00.5646|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:20:09.8993|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:21:08.5401|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:24:50.3574|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:33:41.5430|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:34:50.1509|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 12:35:36.5034|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=Mrxplenty
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"Mrxplenty"}]}
+
+2016-11-03 13:16:54.2262|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=Mrxplenty
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"Mrxplenty"}]}
+
+2016-11-03 13:17:13.1634|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=Mrxplenty
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"Mrxplenty"}]}
+
+2016-11-03 13:17:57.3052|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=Mrxplenty
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"Mrxplenty"}]}
+
+2016-11-03 13:19:26.2167|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=Mrxplenty
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"Mrxplenty"}]}
+
+2016-11-03 13:21:17.2371|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 13:21:55.3069|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 13:22:32.2963|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 13:24:55.9829|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/FindUser?userName=undtaker
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"undtaker"}]}
+
+2016-11-03 13:25:44.5744|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/Register?userRole=Trainer
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"zoro@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainer"}]}
+
+2016-11-03 13:28:42.1194|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/Register?userRole=Trainer
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"powerranger@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainer"}]}
+
+2016-11-03 16:12:03.2700|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/ChangeEmail?userNameId=581b1f6da719fa2e8c18a0f4
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : ChangeEmail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"marco@gmail.com"},"userNameId":"581b1f6da719fa2e8c18a0f4"}]}
+
+2016-11-03 16:13:37.1329|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b1f6da719fa2e8c18a0f4
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"shmarko"},"userNameId":"581b1f6da719fa2e8c18a0f4"}]}
+
+2016-11-03 16:14:13.0723|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/ChangeEmail?userNameId=581b1f6da719fa2e8c18a0f4
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : ChangeEmail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"narnia@gmail.com"},"userNameId":"581b1f6da719fa2e8c18a0f4"}]}
+
+2016-11-03 16:17:28.8853|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/Register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"zila@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee"}]}
+
+2016-11-03 16:18:33.4433|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b46faa719fa41006a86df
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"lol11"},"userNameId":"581b46faa719fa41006a86df"}]}
+
+2016-11-03 16:39:55.6024|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b46faa719fa41006a86df
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"moli"},"userNameId":"581b46faa719fa41006a86df"}]}
+
+2016-11-03 16:40:44.1791|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/Register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"shmulik@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee"}]}
+
+2016-11-03 16:41:20.6619|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"moli"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 16:42:14.2762|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"moli"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 16:43:25.2486|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"moli"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 16:44:49.5741|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"rula"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 16:46:10.9026|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetUserName?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"rulabula"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 16:47:15.9077|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/ChangeEmail?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : ChangeEmail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"rubiluvi@gmail.com"},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 18:21:11.6199|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetPhoneVisibility?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetPhoneVisibility
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"PhoneVisibility":true},"userNameId":"581b4c6da719fa3f64461126"}]}
+
+2016-11-03 18:21:32.1902|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/SetPhoneVisibility?userNameId=581b4c6da719fa3f64461126
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : SetPhoneVisibility
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"PhoneVisibility":false},"userNameId":"581b4c6da719fa3f64461126"}]}
+

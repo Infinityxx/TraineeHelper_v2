@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TraineeHelper.ViewModels.ConnectionContext>
+
+@{
+    ViewBag.Title = "Connections";
+}
+
+<h2>Connections</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Created)
+        </th>
+        <th>
+            @Html.DisplayName("Connection Type")
+        </th>
+        <th></th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConnectionType)
+            </td>
+            <td>
+                <a href="#" id="detailsbtn" onclick="showVisitorProfile('@item.Id')">Details</a>
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<div id="visitor-details">
+
+</div>
+
+<script src="~/Scripts/MicrosoftAjax.js"></script>
+<script src="~/Scripts/MicrosoftMvcAjax.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>

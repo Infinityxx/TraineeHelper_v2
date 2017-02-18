@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TraineeHelper.ViewModels.ConnectionContext>
+
+@{
+    ViewBag.Title = "Connection Requests";
+}
+
+<h2>Connection Requests</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            User
+        </th>
+        <th>
+            Requested On
+        </th>
+        <th>
+            Request Type
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConnectionType)
+            </td>
+
+            <td>
+                <span id="@item.Id">
+                    <a href="#" onclick="respondToConnectionRequest('@item.Id', false)">Decline</a>|
+                    <a href="#" onclick="respondToConnectionRequest('@item.Id', true)"> Approve </a>|
+                </span>
+                <a href="#" id="detailsbtn" onclick="showVisitorProfile('@item.Id')">Details</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div id="visitor-details">
+
+</div>
+
+<script src="~/Scripts/MicrosoftAjax.js"></script>
+<script src="~/Scripts/MicrosoftMvcAjax.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>

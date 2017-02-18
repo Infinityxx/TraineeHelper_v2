@@ -1,0 +1,154 @@
+2016-12-30 11:26:28.2678|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483089988082)\/","Modified":"\/Date(1483089988082)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 11:26:28.7061|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 11:30:48.7858|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/account/logout
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-12-30 11:31:04.1171|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483090264076)\/","Modified":"\/Date(1483090264076)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 11:31:04.5151|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 11:31:18.1215|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=s&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"s","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 11:42:25.6484|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"koko@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483090945450)\/","Modified":"\/Date(1483090945450)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 11:42:28.6269|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554506a719fa2ae46765f2
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554506a719fa2ae46765f2"}]}
+
+2016-12-30 11:42:41.0335|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554506a719fa2ae46765f2
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554506a719fa2ae46765f2"}]}
+
+2016-12-30 12:07:34.2424|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483092454041)\/","Modified":"\/Date(1483092454041)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 12:07:34.6798|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:07:43.9923|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:07:55.5004|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:09:29.0216|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483092568819)\/","Modified":"\/Date(1483092568819)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 12:09:29.4909|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:10:05.9356|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:18:17.3531|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1483093097158)\/","Modified":"\/Date(1483093097158)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-12-30 12:18:17.8314|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/account/GetUserName?id=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : GetUserName
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:18:27.9078|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":null,"userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:18:30.3622|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:18:45.9041|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+
+2016-12-30 12:19:05.9316|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/findUser?userName=a&userId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : FindUser
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"a","userId":"58554525a719fa2ae46765f4"}]}
+

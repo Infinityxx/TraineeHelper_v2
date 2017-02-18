@@ -1,0 +1,80 @@
+﻿@model TraineeHelper.ViewModels.UserTraineeProfileDataContext
+@{
+    ViewBag.Title = "ViewTrainee";
+}
+
+<h2>Trainee Form</h2>
+
+<div id="profile-form">
+    <h2>@Model.UserName</h2>
+    <table border="1">
+        <tr>
+            <td>UserName</td>
+            <td>@Model.UserName</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>@Model.UserType</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>@Model.Gender</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>@Model.Location.City, @Model.Location.Country</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Favorite Exercise</td>
+            <td>@Model.FavouriteExercise.ExerciseName</td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+        <tr>
+            <td>Birthday</td>
+            <td>@Model.Birthday</td>
+        </tr>
+        <tr>
+            <td>Activity</td>
+            <td>@Model.IsActive</td>
+        </tr>
+
+     </table>
+</div>
+
+<div>
+    <br/>
+    <input type="button" onclick="location.href = '/Search/index'" value="Go Back" />
+    <br/>
+    @if (ViewBag.AllowFriendshipRequest && @Model.UserType == "Trainee" && ViewBag.ViewerUserType == "Trainer") { 
+       <input type="button" id="requestbtn" onclick="requestConnection('@Model.UserId', 'Mentor')" value="request mentorship" />
+    }
+    @if (ViewBag.AllowFriendshipRequest && @Model.UserType == "Trainer" && ViewBag.ViewerUserType == "Trainee")
+    {
+        <input type="button" id="requestbtn" onclick="requestConnection('@Model.UserId','Mentor')" value="request friendship" />
+    }
+    @if (ViewBag.AllowFriendshipRequest && Model.UserType != "Trainer" && ViewBag.ViewerUserType == "Trainee")
+    {
+        <input type="button" id="requestbtn" onclick="requestConnection('@Model.UserId', 'Friendship')" value="request mentorship" />
+    }
+    @if (ViewBag.AllowFriendshipRequest && @Model.UserType != "Trainee" && ViewBag.ViewerUserType == "Trainer")
+    {
+        <input type="button" id="requestbtn" onclick="requestConnection('@Model.UserId', 'Friendship')" value="request mentorship" />
+    }
+    @if (ViewBag.AllowMentorOptions)
+    {
+        <input type="button" id="medicalcondition" onclick="requestMedicalCondition('@Model.UserId')" value="Medical Condition" />
+        <input type="button" id="trainingPlan" onclick="location.href = '/Trainer/CreateTrainingPlanView'" value="Send Training Plan" />
+    }
+</div>
+

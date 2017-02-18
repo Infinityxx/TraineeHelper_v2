@@ -1,0 +1,7 @@
+2016-10-08 17:56:28.9594|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UploadImage
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : PostUserImage
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

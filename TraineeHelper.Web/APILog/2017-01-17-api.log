@@ -1,0 +1,84 @@
+2017-01-17 13:14:31.1116|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ratingValue":0,"trainerId":"58554525a719fa2ae46765f4"}]}
+
+2017-01-17 13:19:54.0892|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ratingValue":0,"trainerId":"58554525a719fa2ae46765f4"}]}
+
+2017-01-17 13:23:03.8499|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/RequestConnection
+Controller : TraineeHelper.Web.Controllers.ConnectionController
+Action : RequestConnection
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Id":null,"Sender":"58554506a719fa2ae46765f2","Reciever":"58554525a719fa2ae46765f4","Contact":null,"ConnectionStatus":0,"ConnectionType":0,"IsActive":false,"Description":null,"Created":"\/Date(-62135596800000)\/","Modified":"\/Date(-62135596800000)\/"}}]}
+
+2017-01-17 13:27:17.0331|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ratingValue":0,"trainerId":"58554525a719fa2ae46765f4"}]}
+
+2017-01-17 13:27:50.5254|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ratingValue":0,"trainerId":"58554525a719fa2ae46765f4"}]}
+
+2017-01-17 13:30:05.7750|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":0}]}
+
+2017-01-17 13:32:25.2567|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=3
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":0}]}
+
+2017-01-17 13:33:10.0003|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=3
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":3}]}
+
+2017-01-17 13:33:45.0039|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=3
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":3}]}
+
+2017-01-17 17:50:12.1909|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=3
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":3}]}
+
+2017-01-17 17:51:19.4799|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=3
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":3}]}
+
+2017-01-17 17:52:08.0061|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/UpdateTrainerReputation?trainerId=58554525a719fa2ae46765f4&reputation=4
+Controller : TraineeHelper.Web.Controllers.TrainerApiController
+Action : UpdateTrainerReputation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainerId":"58554525a719fa2ae46765f4","reputation":4}]}
+

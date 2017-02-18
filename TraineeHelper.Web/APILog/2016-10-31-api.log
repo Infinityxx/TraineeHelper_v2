@@ -1,0 +1,91 @@
+2016-10-31 13:16:41.2782|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"123","Password":"123","ConfirmPassword":"123"},"userRole":"Trainee"}]}
+
+2016-10-31 13:17:29.8464|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"123","Password":"123","ConfirmPassword":"123"},"userRole":"Trainee"}]}
+
+2016-10-31 13:17:46.0240|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"123","Password":"123","ConfirmPassword":"123"},"userRole":"Trainee"}]}
+
+2016-10-31 13:22:54.0673|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"1234","Password":"1234","ConfirmPassword":"1234"},"userRole":"Trainee"}]}
+
+2016-10-31 13:23:16.9899|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"1234","Password":"1234","ConfirmPassword":"1234"},"userRole":"Trainee"}]}
+
+2016-10-31 13:23:47.3257|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"1234","Password":"1234","ConfirmPassword":"1234"},"userRole":"Trainee"}]}
+
+2016-10-31 13:25:51.7985|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"shaibenzvi1@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee"}]}
+
+2016-10-31 15:35:56.3257|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"liranbenzvi1@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee"}]}
+
+2016-10-31 15:37:41.2228|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainer
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"liranbenzvi1@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainer"}]}
+
+2016-10-31 15:38:23.6587|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainer
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"liranbenzvi1@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainer"}]}
+
+2016-10-31 15:45:53.7428|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainer
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"shanibezvi@gmail.com","Password":"1234567","ConfirmPassword":"1234567"},"userRole":"Trainer"}]}
+
+2016-10-31 15:47:01.4459|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"dafnabezvi@gmail.com","Password":"1234567","ConfirmPassword":"1234567"},"userRole":"Trainee"}]}
+
+2016-10-31 15:59:25.2762|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Gym
+Controller : TraineeHelper.Web.Controllers.AccountController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"yossi1234","Password":"654321","ConfirmPassword":"654321"},"userRole":"Gym"}]}
+

@@ -1,0 +1,312 @@
+﻿@model IEnumerable<TraineeHelper.ViewModels.ExpertiseContext>
+
+    @{
+        ViewBag.Title = "SearchMatches";
+    }
+
+    @{
+        List<SelectListItem> UserTypes = new List<SelectListItem>();
+        UserTypes.Add(new SelectListItem
+        {
+            Text = "Trainees",
+            Value = TraineeHelper.Common.UserType.Trainee.ToString()
+        });
+        UserTypes.Add(new SelectListItem
+        {
+            Text = "Trainers",
+            Value = TraineeHelper.Common.UserType.Trainer.ToString()
+        });
+        UserTypes.Add(new SelectListItem
+        {
+            Text = "Gyms",
+            Value = TraineeHelper.Common.UserType.Gym.ToString()
+        });
+    }
+
+    @{
+        List<SelectListItem> Genders = new List<SelectListItem>();
+        Genders.Add(new SelectListItem
+        {
+            Text = "Male",
+            Value = TraineeHelper.Common.Gender.Male.ToString()
+        });
+
+        Genders.Add(new SelectListItem
+        {
+            Text = "Female",
+            Value = TraineeHelper.Common.Gender.Female.ToString()
+        });
+
+        Genders.Add(new SelectListItem
+        {
+            Text = "Doesnt Matter",
+            Value = "DoesntMatter"
+        });
+    }
+
+    @{
+        List<SelectListItem> LocationOptions = new List<SelectListItem>();
+        LocationOptions.Add(new SelectListItem
+        {
+            Text = "Everywhere",
+            Value = "Everywhere"
+        });
+
+        LocationOptions.Add(new SelectListItem
+        {
+            Text = "Located Between 5km",
+            Value = "null"
+        });
+
+    }
+
+    @{
+        List<SelectListItem> PriceOptions = new List<SelectListItem>();
+        PriceOptions.Add(new SelectListItem
+        {
+            Text = "Under 100",
+            Value = "<100"
+        });
+
+        PriceOptions.Add(new SelectListItem
+        {
+            Text = "between 100 to 150",
+            Value = "between"
+        });
+
+        PriceOptions.Add(new SelectListItem
+        {
+            Text = "under 150",
+            Value = "<150"
+        });
+    }
+
+    @{ 
+        List<SelectListItem> YearsOfExperienceOptions = new List<SelectListItem>();
+        YearsOfExperienceOptions.Add(new SelectListItem
+        {
+            Text = "3 Years and below",
+            Value = "<3"
+        });
+
+        YearsOfExperienceOptions.Add(new SelectListItem
+        {
+            Text = "between 3 to 7 years",
+            Value = "between"
+        });
+
+        YearsOfExperienceOptions.Add(new SelectListItem
+        {
+            Text = "8 years and above",
+            Value = ">8"
+        });
+    }
+
+    @{
+        List<SelectListItem> ReputationOptions = new List<SelectListItem>();
+        ReputationOptions.Add(new SelectListItem
+        {
+            Text = "1",
+            Value = "1"
+        });
+
+        ReputationOptions.Add(new SelectListItem
+        {
+            Text = "2",
+            Value = "2"
+        });
+
+        ReputationOptions.Add(new SelectListItem
+        {
+            Text = "3",
+            Value = "3"
+        });
+
+        ReputationOptions.Add(new SelectListItem
+        {
+            Text = "4",
+            Value = "4"
+        });
+
+        ReputationOptions.Add(new SelectListItem
+        {
+            Text = "5",
+            Value = "5"
+        });
+
+    }
+
+    @{
+        List<SelectListItem> ShowersOptions = new List<SelectListItem>();
+        ShowersOptions.Add(new SelectListItem
+        {
+            Text = "Yes",
+            Value = "1"
+        });
+
+        ShowersOptions.Add(new SelectListItem
+        {
+            Text = "No",
+            Value = "0"
+        });
+
+        ShowersOptions.Add(new SelectListItem
+        {
+            Text = "Doesnt Matter",
+            Value = "2"
+        });
+
+    }
+
+    @{
+        List<SelectListItem> ParkingOptions = new List<SelectListItem>();
+        ParkingOptions.Add(new SelectListItem
+        {
+            Text = "Yes",
+            Value = "1"
+        });
+
+        ParkingOptions.Add(new SelectListItem
+        {
+            Text = "No",
+            Value = "0"
+        });
+
+        ParkingOptions.Add(new SelectListItem
+        {
+            Text = "Doesnt Matter",
+            Value = "2"
+        });
+
+    }
+
+    <h2>Search Filters</h2>
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("id") <!---to put user id here-->
+
+        <div class="form-group">
+            @Html.Label("User Type:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12" onchange="ShowHideGenderBox()">
+                @Html.DropDownList("User Types", UserTypes, "-- Select User Type --")
+            </div>
+        </div>
+        <!--radio box for gender-->
+        <div class="form-group" id="dvGenderBoxId" style="display: none;">
+            @Html.Label("Gender:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @Html.DropDownList("Genders", Genders, "-- Select Gender Preferences --")
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.Label("Location:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @Html.DropDownList("Location", LocationOptions, "-- Select Location Types --")
+            </div>
+        </div>
+       
+        <div class="form-group" id="dvExperienceYearsId" style="display: none;">
+            @Html.Label("Years of Experience:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @Html.DropDownList("ExperienceYears", YearsOfExperienceOptions, "-- Wanted Years Of Experience --")
+            </div>
+        </div>
+
+        <div class="form-group" id="dvExpertisesId" style="display: none;">
+            @Html.Label("Expertise:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @foreach (var value in Model)
+                {
+                    @Html.CheckBox(value.Id)
+                    @Html.Label(value.ExpertiseName)
+                }
+            </div>
+        </div>
+    <!-- Reputation 1-5-->
+    <div class="form-group" id="dvReputationBoxId" style="display: none;">
+        @Html.Label("Reputation:", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.DropDownList("Reputation", ReputationOptions, "-- Select Reputation --")
+        </div>
+    </div>
+
+    <!-- Price -->
+    <div class="form-group" id="dvPriceId" style="display: none;">
+        @Html.Label("Price:", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.DropDownList("Price", PriceOptions, "-- Select Price --")
+        </div>
+    </div>
+    <!-- Showers-->
+    <div class="form-group" id="dvShowersId" style="display: none;">
+        @Html.Label("Showers in the place:", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.DropDownList("Showers", ShowersOptions, "-- Select Showers Preferences --")
+        </div>
+    </div>
+    <!-- Parking Lot-->
+    <div class="form-group" id="dvParkingLotId" style="display: none;">
+        @Html.Label("Parking Lot in the area:", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.DropDownList("Parking", ParkingOptions, "-- Select Parking Lot Preferences --")
+        </div>
+    </div>
+
+    <input type="submit" value="Search" onclick="advancedSearch()" />
+    <div id="search-results"></div>
+</div>
+
+
+<script type="text/javascript">
+    function ShowHideGenderBox() {
+        var chkOption = $('#User_Types').val();
+        var dvGenderBox = document.getElementById("dvGenderBoxId");
+        var dvReputationBox = document.getElementById("dvReputationBoxId");
+        var dvPriceBox = document.getElementById("dvPriceId");
+        var dvShowersBox = document.getElementById("dvShowersId");
+        var dvParkingLotBox = document.getElementById("dvParkingLotId");
+        var dvExpertisesCheckBoxes = document.getElementById("dvExpertisesId");
+
+        if (chkOption == "Trainee") {
+            dvGenderBox.style.display = "block";
+            dvReputationBox.style.display = "none";
+            dvPriceBox.style.display = "none";
+            dvShowersBox.style.display = "none";
+            dvParkingLotBox.style.display = "none";
+            dvExpertisesCheckBoxes.style.display = "none";
+            dvExperienceYearsId.style.display = "none";
+        }
+        else if (chkOption == "Trainer") {
+            dvGenderBox.style.display = "block";
+            dvReputationBox.style.display = "block";
+            dvPriceBox.style.display = "block";
+            dvShowersBox.style.display = "none";
+            dvParkingLotBox.style.display = "none";
+            dvExpertisesCheckBoxes.style.display = "block";
+            dvExperienceYearsId.style.display = "block";
+        }
+        else if (chkOption == "Gym") {
+            dvGenderBox.style.display = "none";
+            dvReputationBox.style.display = "block";
+            dvPriceBox.style.display = "block";
+            dvShowersBox.style.display = "block";
+            dvParkingLotBox.style.display = "block";
+            dvExpertisesCheckBoxes.style.display = "block";
+            dvExperienceYearsId.style.display = "block";
+        }
+        else {
+            dvGenderBox.style.display = "none";
+            dvReputationBox.style.display = "none";
+            dvPriceBox.style.display = "none";
+            dvShowersBox.style.display = "none";
+            dvParkingLotBox.style.display = "none";
+            dvExpertisesCheckBoxes.style.display = "none";
+            dvExperienceYearsId.style.display = "none";
+        }
+    }
+</script>

@@ -1,0 +1,19 @@
+﻿<div>
+    <h1>Test form</h1>
+    <form method="post" action="/api/Account/UploadImage" enctype="multipart/form-data"  >
+        <input type="file" title="upload" name="userImage" id="userImage" />
+        <input type="submit" value="Upload file" />
+    </form>
+    @*<script>
+
+            function uploadImage() {
+
+                var data = $("#userImage").val();
+                $.post('/api/Account/UploadImage', data, function () {
+                    alert('success');
+                });
+            }
+
+        </script>*@
+
+</div>

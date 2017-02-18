@@ -1,0 +1,248 @@
+﻿@model TraineeHelper.ViewModels.ChallengeContext
+
+@{ 
+    List<SelectListItem> ChallengeTypes = new List<SelectListItem>();
+    List<SelectListItem> RunningDistance = new List<SelectListItem>();
+    List<SelectListItem> WeightToLift = new List<SelectListItem>();
+    List<SelectListItem> PushupsRepeats = new List<SelectListItem>();
+    List<SelectListItem> ChallengeTimer = new List<SelectListItem>();
+
+    ChallengeTypes.Add(new SelectListItem
+    {
+        Text = "Run",
+        Value = "1"
+    });
+
+    ChallengeTypes.Add(new SelectListItem
+    {
+        Text = "Lift",
+        Value = "2"
+    });
+
+    ChallengeTypes.Add(new SelectListItem
+    {
+        Text = "Pushups",
+        Value = "3"
+    });
+
+    /* Distance To Run */
+    RunningDistance.Add(new SelectListItem
+    {
+        Text = "500",
+        Value = "500"
+    });
+
+    RunningDistance.Add(new SelectListItem
+    {
+        Text = "1000",
+        Value = "1000"
+    });
+
+    RunningDistance.Add(new SelectListItem
+    {
+        Text = "2000",
+        Value = "2000"
+    });
+
+    RunningDistance.Add(new SelectListItem
+    {
+        Text = "3000",
+        Value = "3000"
+    });
+
+    RunningDistance.Add(new SelectListItem
+    {
+        Text = "4000",
+        Value = "4000"
+    });
+
+
+    /* Weight To Lift */
+    WeightToLift.Add(new SelectListItem
+    {
+        Text = "5",
+        Value = "5"
+    });
+
+    WeightToLift.Add(new SelectListItem
+    {
+        Text = "8",
+        Value = "8"
+    });
+
+    WeightToLift.Add(new SelectListItem
+    {
+        Text = "10",
+        Value = "10"
+    });
+
+    WeightToLift.Add(new SelectListItem
+    {
+        Text = "15",
+        Value = "15"
+    });
+
+    WeightToLift.Add(new SelectListItem
+    {
+        Text = "20",
+        Value = "20"
+    });
+
+    /*Number of Pushups repetitions */
+    PushupsRepeats.Add(new SelectListItem
+    {
+        Text = "10",
+        Value = "10"
+    });
+
+    PushupsRepeats.Add(new SelectListItem
+    {
+        Text = "20",
+        Value = "20"
+    });
+
+    PushupsRepeats.Add(new SelectListItem
+    {
+        Text = "30",
+        Value = "30"
+    });
+
+    PushupsRepeats.Add(new SelectListItem
+    {
+        Text = "40",
+        Value = "40"
+    });
+
+    PushupsRepeats.Add(new SelectListItem
+    {
+        Text = "50",
+        Value = "50"
+    });
+
+    /* Time limit options */
+    ChallengeTimer.Add(new SelectListItem
+    {
+        Text = "5",
+        Value = "5"
+    });
+
+    ChallengeTimer.Add(new SelectListItem
+    {
+        Text = "7",
+        Value = "7"
+    });
+
+    ChallengeTimer.Add(new SelectListItem
+    {
+        Text = "8",
+        Value = "8"
+    });
+
+    ChallengeTimer.Add(new SelectListItem
+    {
+        Text = "10",
+        Value = "10"
+    });
+
+    ChallengeTimer.Add(new SelectListItem
+    {
+        Text = "15",
+        Value = "15"
+    });
+}
+@using (Html.BeginForm())
+{
+    <h2>Challenge Builder</h2>
+
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+    
+        @Html.Label("Challenge Type:", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            <div onchange="showHideBoxes()">
+                @Html.DropDownList("Challenge Types", ChallengeTypes, "Select Challenge Type")
+            </div>
+            <div id="dvWeightsId" style="display: none;">
+                @Html.Label("Weights:")
+                @Html.DropDownList("Weights", WeightToLift, "Select Weight")
+                @Html.Label("Kg")
+            </div>
+            <div id="dvPushupsRepeatsId" style="display: none;">
+                @Html.Label("Pushups number:")
+                @Html.DropDownList("Pushups number", PushupsRepeats, "Select Number Of PushUps")
+                @Html.Label("times")
+            </div>
+            <div id="dvRunningDistanceId" style="display: none;">
+                @Html.Label("Distance:")
+                @Html.DropDownList("Running Distance", RunningDistance, "Select Distance")
+                @Html.Label("meters")
+            </div>
+            <div id="dvChallengeTimerId" style="display: none;">
+                @Html.Label("Time target:")
+                @Html.DropDownList("Time Target", ChallengeTimer, "Select Time")
+                @Html.Label("minutes") 
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="button" value="Add Another" onclick="addAnotherChallenge()" class="btn btn-default" />
+                <input type="button" value="Finish" onclick="sendChallenges()" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<script type="text/javascript">
+    function showHideBoxes() {
+        var chkOption = $('#Challenge_Types').val();
+        var weights = $('#Weights').val();
+        var runningDistance = $('#Running_Distance').val();
+        var pushupsRepeats = $('#Pushups_number').val();
+        var timeTarget = $('#Time_Target').val();
+        var dvWeights = document.getElementById("dvWeightsId");
+        var dvPushupsRepeats = document.getElementById("dvPushupsRepeatsId");
+        var dvRunningDistance = document.getElementById("dvRunningDistanceId");
+        var dvChallengeTimer = document.getElementById("dvChallengeTimerId");
+
+        if (chkOption == "1") {
+            dvWeights.style.display = "none";
+            dvPushupsRepeats.style.display = "none";
+            dvRunningDistance.style.display = "block";
+            dvChallengeTimer.style.display = "block";
+            $('#Weights').prop("selectedIndex", 0);
+            $('#Pushups_number').prop("selectedIndex", 0);
+        }
+
+        else if (chkOption == "2") {
+            dvWeights.style.display = "block";
+            dvPushupsRepeats.style.display = "none";
+            dvRunningDistance.style.display = "none";
+            dvChallengeTimer.style.display = "none";
+            $('#Running_Distance').prop("selectedIndex", 0);
+            $('#Pushups_number').prop("selectedIndex", 0);
+            $('#Time_Target').prop("selectedIndex", 0);
+        }
+        else if (chkOption == "3") {
+            dvWeights.style.display = "none";
+            dvPushupsRepeats.style.display = "block";
+            dvRunningDistance.style.display = "none";
+            dvChallengeTimer.style.display = "none";
+            $('#Running_Distance').prop("selectedIndex", 0);
+            $('#Time_Target').prop("selectedIndex", 0);
+            $('#Weights').prop("selectedIndex", 0);
+        }
+        else {
+            dvWeights.style.display = "none";
+            dvPushupsRepeats.style.display = "none";
+            dvRunningDistance.style.display = "none";
+            dvChallengeTimer.style.display = "none";
+            $('#Running_Distance').prop("selectedIndex", 0);
+            $('#Time_target').prop("selectedIndex", 0);
+            $('#Weights').prop("selectedIndex", 0);
+            $('#Pushups_number').prop("selectedIndex", 0);
+        }
+    }
+    window.app = {
+        challenges: []
+    };
+
+</script>

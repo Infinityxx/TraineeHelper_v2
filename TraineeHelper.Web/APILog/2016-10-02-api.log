@@ -1,0 +1,7 @@
+2016-10-02 11:53:14.1776|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/trainee
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Post
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"trainee":{"TraineeId":3,"Achievements":null,"FavouriteExercise":null,"MedicalCondition":null,"Gender":1,"Birthday":"\/Date(626652000000)\/","TrainingPlan":null,"UserType":"Trainee","UserName":"Shai","Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"CreatioDateUser":"\/Date(-62135596800000)\/","PhoneNumber":"1234","PhoneVisibility":true,"UserVisibility":true,"Id":{"Timestamp":0,"Machine":0,"Pid":0,"Increment":0,"CreationTime":"\/Date(0)\/"}}}]}
+

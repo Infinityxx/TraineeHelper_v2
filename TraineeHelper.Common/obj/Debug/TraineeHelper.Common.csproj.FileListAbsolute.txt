@@ -1,0 +1,5 @@
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.Common\bin\Debug\TraineeHelper.Common.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.Common\bin\Debug\TraineeHelper.Common.pdb
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.Common\obj\Debug\TraineeHelper.Common.csprojResolveAssemblyReference.cache
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.Common\obj\Debug\TraineeHelper.Common.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.Common\obj\Debug\TraineeHelper.Common.pdb

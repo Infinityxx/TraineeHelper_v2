@@ -1,0 +1,7 @@
+2017-01-05 10:07:36.0828|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/advancedSearch
+Controller : TraineeHelper.Web.Controllers.SearchDataController
+Action : AdvancedSearch
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"searchFilter":{"UserType":"Trainee","UserId":null,"Location":"Everywhere","Price":null,"Reputation":0,"GenderFilter":0,"Expertise":"DoesntMatter","Showers":false,"Parking":false}}]}
+

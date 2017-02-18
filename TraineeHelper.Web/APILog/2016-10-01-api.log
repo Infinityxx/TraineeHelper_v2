@@ -1,0 +1,35 @@
+2016-10-01 13:51:20.8278|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/1
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-10-01 13:54:14.2255|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/1
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"1"}]}
+
+2016-10-01 13:55:29.7529|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+
+2016-10-01 13:55:29.7969|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+
+2016-10-01 13:56:26.4587|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/exercise/57cd7385a719f93b30da7737
+Controller : TraineeHelper.Web.Controllers.ExerciseController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"57cd7385a719f93b30da7737"}]}
+

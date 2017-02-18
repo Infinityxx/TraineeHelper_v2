@@ -1,0 +1,7 @@
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.ViewModels.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.ViewModels.pdb
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.Common.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.Common.pdb
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.pdb

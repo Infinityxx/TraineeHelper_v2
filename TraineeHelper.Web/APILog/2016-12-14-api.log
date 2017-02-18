@@ -1,0 +1,161 @@
+2016-12-14 09:39:35.2065|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=nana
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"nana"}]}
+
+2016-12-14 09:41:21.0925|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=nana
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"nana"}]}
+
+2016-12-14 09:42:19.7099|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=nananana
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"nananana"}]}
+
+2016-12-14 09:44:38.7404|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"lolo@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 09:45:50.6354|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 09:47:58.2733|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 09:48:47.0048|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 09:51:52.4129|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 09:53:00.1282|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=sadasdsada
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"dsadasda","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"sadasdsada"}]}
+
+2016-12-14 09:53:00.1282|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=sadasdsada
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"sadasdsada"}]}
+
+2016-12-14 10:02:03.1646|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"muphasa"}]}
+
+2016-12-14 10:03:39.2983|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"muphasa"}]}
+
+2016-12-14 10:04:04.0224|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"muphasa"}]}
+
+2016-12-14 10:07:25.2204|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=barbique
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"barbique"}]}
+
+2016-12-14 10:08:23.3295|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=barbique
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"nana@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"barbique"}]}
+
+2016-12-14 10:08:54.4963|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=barbique
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"barbique"}]}
+
+2016-12-14 10:10:30.7894|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=barbique
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"barbique"}]}
+
+2016-12-14 10:11:54.7413|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=dsdasd
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"dsdasd"}]}
+
+2016-12-14 10:12:30.1364|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=[object Object]&userName=dsdasd
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"[object Object]","userName":"dsdasd"}]}
+
+2016-12-14 10:13:38.5056|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=nana@gmail.com&userName=lusi
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"nana@gmail.com","userName":"lusi"}]}
+
+2016-12-14 10:14:41.8889|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=muli@gmail.com&userName=muphasa
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"muli@gmail.com","userName":"muphasa"}]}
+
+2016-12-14 10:15:23.1202|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/AccountApi/CheckUserNameAndEmailExistence?email=muli@gmail.com&userName=dashboard
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : CheckUserNameAndEmailExistence
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"email":"muli@gmail.com","userName":"dashboard"}]}
+
+2016-12-14 10:15:40.8224|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/register?userRole=Trainee&userName=dashboard
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"muli@gmail.com","Password":"123456","ConfirmPassword":"123456"},"userRole":"Trainee","userName":"dashboard"}]}
+

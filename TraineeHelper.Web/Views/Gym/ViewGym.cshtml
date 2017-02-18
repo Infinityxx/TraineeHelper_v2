@@ -1,0 +1,117 @@
+﻿@model TraineeHelper.ViewModels.UserGymProfileDataContext
+@{
+    ViewBag.Title = "ViewGym";
+}
+
+<h2>Gym Form</h2>
+
+<div id="profile-form">
+    <h2>@Model.UserName</h2>
+    <table border="1">
+        <tr>
+            <td>UserName</td>
+            <td>@Model.UserName</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>@Model.UserType</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>@Model.Showers</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>@Model.Location.City, @Model.Location.Country</td>
+        </tr>
+        <tr>
+            <td>Birthday</td>
+            <td>@Model.Birthday</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Reputation</td>
+            <td>@Model.Reputation</td>
+        </tr>
+        <tr>
+            <td>Expertise</td>
+            <td>
+                @foreach (string s in Model.Expertise)
+            {
+                @s
+            }
+        </td>
+        </tr>
+        <tr>
+            <td>Experience</td>
+            <td>@Model.ExperienceYears</td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Parking Lot availability</td>
+            <td>@Model.ParkingLot</td>
+        </tr>
+        <tr>
+            <td>Showers availability</td>
+            <td>@Model.Showers</td>
+        </tr>
+        <tr>
+            <td>Activity</td>
+            <td>@Model.IsActive</td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <br />
+    <input type="button" onclick="location.href = '/Search/index'; " value="Go Back" />
+    <br />
+    @if (ViewBag.AllowFriendshipRequest)
+    {
+        <input type="button" id="requestbtn" onclick="requestConnection('@Model.UserId')" value="request friendship" />
+    }
+</div>
+
+<div id="rating" style="display: block;">
+    <br />
+    <input type="button" id="ratingbtn" onclick="ShowGymRatingInterface()" value="Rate Me" />
+</div>
+
+
+<div id="ratingInterface" style="display: none;">
+    @Html.Label("Rate:")
+    @foreach (var option in Model.ReputationOptions)
+    {
+        @Html.RadioButtonFor(i => option, option);
+    }
+    <br />
+    <div id="num" style="padding-left: 42px">
+        <p>1 2 3 4 5</p>
+        <input type="submit" onclick="updateGymRating('@Model.UserId')" value="Submit" />
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function ShowGymRatingInterface() {
+        var dvRating = document.getElementById("ratingInterface");
+        dvRating.style.display = "block"
+    }
+</script>
+
+

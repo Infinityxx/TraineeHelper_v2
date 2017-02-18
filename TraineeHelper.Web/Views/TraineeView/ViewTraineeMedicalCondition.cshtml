@@ -1,0 +1,52 @@
+﻿@model TraineeHelper.ViewModels.MedicalConditionContext
+
+<div>
+    <h4>MedicalConditionContext</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MuscleMass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MuscleMass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FatPercent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FatPercent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List", "ViewTrainee", "TraineeView", new {traineeId = ViewBag.traineeId }, null)
+</p>

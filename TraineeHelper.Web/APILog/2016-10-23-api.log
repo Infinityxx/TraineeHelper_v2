@@ -1,0 +1,154 @@
+2016-10-23 09:25:11.8018|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token?user=123&password=123
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":"123","password":"123"}]}
+
+2016-10-23 09:28:46.6335|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token?user=123&password=123
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":"123","password":"123"}]}
+
+2016-10-23 09:30:54.0603|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"_request":{}}]}
+
+2016-10-23 09:39:06.6093|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477204746429)\/","Modified":"\/Date(1477204746429)\/"}}]}
+
+2016-10-23 09:41:36.7538|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477204896750)\/","Modified":"\/Date(1477204896750)\/"}}]}
+
+2016-10-23 09:42:36.0380|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"1235","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477204956033)\/","Modified":"\/Date(1477204956033)\/"}}]}
+
+2016-10-23 09:42:41.2743|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"1235","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477204961269)\/","Modified":"\/Date(1477204961269)\/"}}]}
+
+2016-10-23 09:42:50.6004|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"1235","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477204970593)\/","Modified":"\/Date(1477204970593)\/"}}]}
+
+2016-10-23 09:44:49.2701|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"2345","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205089096)\/","Modified":"\/Date(1477205089097)\/"}}]}
+
+2016-10-23 09:44:53.4345|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"2345","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205093430)\/","Modified":"\/Date(1477205093430)\/"}}]}
+
+2016-10-23 09:45:55.8556|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"1231","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205155593)\/","Modified":"\/Date(1477205155594)\/"}}]}
+
+2016-10-23 09:50:17.5786|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205417402)\/","Modified":"\/Date(1477205417402)\/"}}]}
+
+2016-10-23 09:50:48.4744|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205448470)\/","Modified":"\/Date(1477205448470)\/"}}]}
+
+2016-10-23 09:51:21.2461|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205481240)\/","Modified":"\/Date(1477205481240)\/"}}]}
+
+2016-10-23 09:52:46.5967|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205566589)\/","Modified":"\/Date(1477205566589)\/"}}]}
+
+2016-10-23 09:53:02.1304|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205582117)\/","Modified":"\/Date(1477205582117)\/"}}]}
+
+2016-10-23 09:53:52.4730|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205632463)\/","Modified":"\/Date(1477205632463)\/"}}]}
+
+2016-10-23 09:54:36.2414|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205676236)\/","Modified":"\/Date(1477205676236)\/"}}]}
+
+2016-10-23 09:56:29.7065|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205789700)\/","Modified":"\/Date(1477205789700)\/"}}]}
+
+2016-10-23 09:56:43.5505|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477205803545)\/","Modified":"\/Date(1477205803545)\/"}}]}
+
+2016-10-23 10:00:20.8658|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477206020856)\/","Modified":"\/Date(1477206020856)\/"}}]}
+
+2016-10-23 10:02:53.0253|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":"123","Password":"123","Email":null,"Locations":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":false,"IsActive":true,"Created":"\/Date(1477206172851)\/","Modified":"\/Date(1477206172851)\/"}}]}
+

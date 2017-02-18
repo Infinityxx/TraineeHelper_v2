@@ -1,0 +1,14 @@
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\obj\Debug\TraineeHelper.Models.csprojResolveAssemblyReference.cache
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\TraineeHelper.Models.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\TraineeHelper.Models.pdb
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\MongoDB.Bson.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\MongoDB.Driver.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\TraineeHelper.Common.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\TraineeHelper.Common.pdb
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\MongoDB.Bson.xml
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\MongoDB.Driver.xml
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\obj\Debug\TraineeHelper.Models.dll
+C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\obj\Debug\TraineeHelper.Models.pdb

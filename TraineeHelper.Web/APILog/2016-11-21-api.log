@@ -1,0 +1,231 @@
+2016-11-21 09:47:28.1388|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479714447939)\/","Modified":"\/Date(1479714447939)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 09:53:26.0987|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479714806094)\/","Modified":"\/Date(1479714806094)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 09:53:39.2498|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":null,"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 09:55:12.4113|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":null,"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 09:56:39.6683|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":null,"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:01:49.6128|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":null,"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:05:23.2604|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":null,"Email":null,"PhoneVisibility":false,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:05:54.1832|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":null,"Email":null,"PhoneVisibility":false,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:06:48.0784|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479715608074)\/","Modified":"\/Date(1479715608074)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 10:24:11.7540|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":null,"Email":"Shmarko","PhoneVisibility":false,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:30:24.4393|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:30:46.7422|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:31:33.7956|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:32:02.1978|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:32:21.2864|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 10:50:14.6711|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:33:49.2875|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:34:17.2027|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:39:55.1089|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":false,"UserVisibility":false},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:44:09.9441|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479721449758)\/","Modified":"\/Date(1479721449758)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 11:45:27.8286|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:47:35.3050|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/Account/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":true,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:51:25.2969|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/AccountApi/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":false,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 11:55:30.1016|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/AccountApi/UpdateAccount?userId=582dc17ca719fa2f406f7748
+Controller : TraineeHelper.Web.Controllers.AccountApiController
+Action : UpdateAccount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"UserName":"Shmarko","Email":"shaibenzvi1@gmail.com","PhoneVisibility":false,"UserVisibility":true},"userId":"582dc17ca719fa2f406f7748"}]}
+
+2016-11-21 16:28:45.4499|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479738525232)\/","Modified":"\/Date(1479738525232)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 16:28:51.8929|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479738531888)\/","Modified":"\/Date(1479738531888)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 16:29:04.5671|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57906/api/Trainee/test
+Controller : TraineeHelper.Web.Controllers.TraineeController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":"test"}]}
+
+2016-11-21 16:29:06.5804|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479738546567)\/","Modified":"\/Date(1479738546567)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 16:32:43.4448|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479738763222)\/","Modified":"\/Date(1479738763222)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 16:33:38.5877|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"shaibenzvi1@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479738818583)\/","Modified":"\/Date(1479738818583)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 16:45:39.2150|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"liranbenzvi@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479739539210)\/","Modified":"\/Date(1479739539210)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 17:48:57.2562|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"momo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479743337082)\/","Modified":"\/Date(1479743337082)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
+2016-11-21 20:03:37.4165|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/get/token
+Controller : TraineeHelper.Web.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":null,"UserType":null,"UserName":null,"Password":"123456","Email":"yoyo@gmail.com","Location":null,"Description":null,"PhoneNumber":null,"PhoneVisibility":false,"UserVisibility":true,"IsActive":true,"Created":"\/Date(1479751417241)\/","Modified":"\/Date(1479751417241)\/","Name":null,"Birthday":"\/Date(-62135596800000)\/"}}]}
+
