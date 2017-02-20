@@ -5,3 +5,10 @@ C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHel
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.Common.pdb
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.dll
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.ViewModels.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.ViewModels.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.Common.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\bin\Debug\TraineeHelper.Common.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\TraineeHelper.ViewModels\obj\Debug\TraineeHelper.ViewModels.pdb

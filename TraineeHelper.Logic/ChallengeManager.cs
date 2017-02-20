@@ -19,12 +19,19 @@ namespace TraineeHelper.Logic
             ChallengeEntityService = new ChallengeEntityService();
         }
 
-        public async Task<bool> CreateChallenge(ChallengeContext challengectx)
+        public async Task<bool> CreateChallenge(ChallengesPackage challengepkg)
         {
-            if (null == challengectx)
+            List<Challenge> challenges = new List<Challenge>();
+
+            if (null == challengepkg)
                 return false;
-            Challenge challenge = challengectx.ConvertToChallenge(true);
-            var result = await ChallengeEntityService.CreateChallenge(challenge);
+            for(int i = 0; i < challengepkg.Challenges.Count; i++)
+            {
+                Challenge challenge = challengepkg.Challenges[i].ConvertToChallenge(true);
+                challenges.Add(challenge);
+            }
+
+            var result = await ChallengeEntityService.CreateChallenge(challenges);
             return result;
         }
 

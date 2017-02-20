@@ -21,14 +21,20 @@ namespace TraineeHelper.DAL.Services
             entityServices = new EntityService<IChallenge, Challenge>();
         }
 
-        public async Task<bool> CreateChallenge(Challenge challenge)
+        public async Task<bool> CreateChallenge(List<Challenge> challenges)
         {
-            challenge.Created = DateTime.Now;
-            var result = Challenges.MongoCollection.InsertOneAsync(challenge);
-            await result;
-            if (result.IsCompleted)
-                return true;
-            return false;
+            Task result;
+            foreach (Challenge c in challenges)
+            {
+                c.Created = DateTime.Now;
+                result = Challenges.MongoCollection.InsertOneAsync(c);
+                await result;
+                if (result.IsFaulted)
+                    return false;
+            }
+            //var result = Challenges.MongoCollection.InsertOneAsync(challenge);
+            //await result;
+            return true;
         }
 
         public async Task<Challenge> Update(Challenge challenge)

@@ -8,6 +8,6 @@ namespace TraineeHelper.ViewModels
 {
     public class ChallengesPackage
     {
-        public ChallengeContext[] TraineeChallengePackage { get; set; }
+        public List<ChallengeContext> Challenges { get; set; }
     }
 }

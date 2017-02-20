@@ -46,6 +46,9 @@ namespace TraineeHelper.Logic.Converters
             challengeContext.ChallengeId = challenge.Id.ToString();
             challengeContext.TraineeId = challenge.TraineeId;
             challengeContext.TrainerId = challenge.TrainerId;
+            challengeContext.ChallengeTime = challenge.ChallengeTime;
+            challengeContext.ChallengeType = challenge.ChallengeType;
+            challengeContext.ChallengeValue = challenge.ChallengeValue;
             //challengeContext.TrainerName = challenge.TrainerName;
             //challengeContext.TraineeName = challenge.TraineeName;
             challengeContext.IsCompleted = challenge.IsCompleted;
@@ -74,6 +77,9 @@ namespace TraineeHelper.Logic.Converters
             //challenge.TraineeName = context.TraineeName;
             challenge.TrainerId = context.TrainerId;
             challenge.TrainerId = context.TraineeId;
+            challenge.ChallengeValue = context.ChallengeValue;
+            challenge.ChallengeTime = context.ChallengeTime;
+            challenge.ChallengeType = context.ChallengeType;
 
             return challenge;
         }

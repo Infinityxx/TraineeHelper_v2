@@ -12,3 +12,17 @@ C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\bin\Debug\Newtonsoft.Json.xml
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\obj\Debug\TraineeHelper.Models.dll
 C:\Users\shai\Documents\Visual Studio 2015\Projects\TraineeHelper_New\DataModel\obj\Debug\TraineeHelper.Models.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\TraineeHelper.Models.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\TraineeHelper.Models.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\MongoDB.Bson.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\MongoDB.Driver.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\TraineeHelper.Common.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\TraineeHelper.Common.pdb
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\MongoDB.Bson.xml
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\MongoDB.Driver.xml
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\obj\Debug\TraineeHelper.Models.csprojResolveAssemblyReference.cache
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\obj\Debug\TraineeHelper.Models.dll
+C:\Users\shaibz\Documents\Visual Studio 2015\Projects\TraineeHelper_New\TraineeHelper_v2\DataModel\obj\Debug\TraineeHelper.Models.pdb

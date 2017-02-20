@@ -1,0 +1,14 @@
+2017-02-20 11:52:29.2838|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengpkg":{"Challenges":[{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":"1","ChallengeValue":"500","ChallengeTime":"7","IsCompleted":false,"ChallengeStatus":0}]}}]}
+
+2017-02-20 11:53:37.4494|INFO|TraineeHelper.Web.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57906/api/CreateChallenges
+Controller : TraineeHelper.Web.Controllers.ChallengeApiController
+Action : CreateChallenges
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"challengpkg":{"Challenges":[{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":"1","ChallengeValue":"500","ChallengeTime":"7","IsCompleted":false,"ChallengeStatus":0},{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":"1","ChallengeValue":"1000","ChallengeTime":"8","IsCompleted":false,"ChallengeStatus":0},{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":"2","ChallengeValue":"20","ChallengeTime":null,"IsCompleted":false,"ChallengeStatus":0},{"ChallengeId":null,"TraineeId":null,"TrainerId":null,"ChallengeType":"3","ChallengeValue":"30","ChallengeTime":null,"IsCompleted":false,"ChallengeStatus":0}]}}]}
+

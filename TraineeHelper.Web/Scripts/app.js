@@ -369,14 +369,18 @@ function addAnotherChallenge() {
     }
 
     var data = {
-        challengeId: "",
-        traineeId: readCookie("watchedUserId"),
-        trainerId: sessionStorage['userId'],
-        challengeType: $('#Challenge_Types').val(),
-        challengeValue: value,
-        challengeTime: timeValue
-        
+        ChallengeId: "",
+        TraineeId: readCookie("watchedUserId"),
+        //TraineeId: null,
+        TrainerId: sessionStorage['userId'],
+        //TrainerId: null,
+        ChallengeType: $('#Challenge_Types').val(),
+        ChallengeValue: value,
+        ChallengeTime: timeValue,
+        IsCompleted: false,
+        ChallengeStatus: 0
     };
+    debugger;
     app.challenges.push(data);
 
     $('#Challenge_Types').val('');
@@ -398,9 +402,7 @@ function sendChallenges() {
     addAnotherChallenge();
 
     var data = {
-        //trainerId: sessionStorage['userId'],
-        //traineeId: readCookie("watchedUserId"),
-        challenges: app.challenges
+        Challenges: app.challenges
     };
     debugger;
     $.post('/api/CreateChallenges', data).success(function (data) {

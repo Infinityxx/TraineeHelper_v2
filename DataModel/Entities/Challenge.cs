@@ -35,7 +35,11 @@ namespace TraineeHelper.Models
 
         public string TraineeName { get; set; }
 
-        public string ChallengeName { get; set; }
+        public string ChallengeType { get; set; }
+
+        public string ChallengeValue { get; set; }
+
+        public string ChallengeTime { get; set; }
 
         public bool IsCompleted { get; set; }
 

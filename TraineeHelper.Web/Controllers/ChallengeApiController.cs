@@ -28,9 +28,9 @@ namespace TraineeHelper.Web.Controllers
         {
             if(!ModelState.IsValid)
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
-
-            //var result = await challengeManager.CreateChallenge(challengectx);
-            //if(!result)
+            
+            var result = await challengeManager.CreateChallenge(challengpkg);
+            if(!result)
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "something went wrong");
             return Request.CreateResponse(HttpStatusCode.Created, "Request successfully sent");
         }
